@@ -1,3 +1,3 @@
 FROM ubuntu
-RUN apt update && apt install -y php
+RUN apt update
 CMD ["/usr/games/raj", "Dockerfiles are cool!"]
